@@ -1,0 +1,25 @@
+//- doctype html 
+//- html 
+//-     head 
+//-         style 
+//-             include ../static/style.css
+//-             include ../static/styleabout.css
+//-         title #{title}
+//-     body
+//-         .aboutbody  
+//-             h2 About Page 
+//-             p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, adipisci?
+
+extends base.pug
+
+block scripts 
+    script(src='../static/script.js')
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleabout.css
+block content
+    div.aboutbody 
+        h2 About Page 
+        p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, adipisci?

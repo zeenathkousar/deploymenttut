@@ -1,0 +1,17 @@
+//- keeping common components here
+
+doctype html
+html
+    head
+        block scripts  
+        block style 
+    body 
+        nav#navbar 
+            ul
+                li #[a(href="/") Home]
+                li #[a(href='/about') About]
+                li #[a(href='/contact') Contact]
+
+        block content 
+        #footer
+            | copyright@zeenathkousar || 2023 || All Rights Reserved

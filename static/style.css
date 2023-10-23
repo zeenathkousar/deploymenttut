@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merriweather:ital,wght@1,900&family=REM:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+nav{
+    background-color: black;
+    font-weight: bolder;    
+}
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style-type:none;
+    margin: 5px  5px;
+}
+#navbar li a{
+    text-decoration: none;
+    padding:  5px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+#navbar li a:hover{
+    background-color: white;
+    color:black;
+}
+#footer{
+    background-color: brown;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
